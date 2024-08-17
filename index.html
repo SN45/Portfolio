@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Sujan's Portfolio</a>
+
+        <button id="menu-icon" class="hamburger">
+            <i class='bx bx-menu'></i>
+        </button>
+        
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#services" style="--i:3;">Work Experience</a>
+            <a href="#skills" style="--i:4;">Skills</a>
+            <a href="#project" style="--i:5;">Project</a>
+            <a href="#contact" style="--i:6;">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Sujan Naidu Bhaskar Surisetty</h1>
+            <h3>And I'm a Data Engineer</h3>
+            <p>I'm a Data Engineer with extensive experience for 1 year.
+                <br>Expertise is to use ETL tools and retrieve the Data and many more...</br>
+            </p>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/sujannaidubhaskarsurisetty45" style="--i:7;"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:sxs230099@utdallas.edu" style="--i:8;"><i class='bx bxl-gmail'></i></a>
+                <a href="https://github.com/SN45" style="--i:9;"><i class='bx bxl-github'></i></a>
+            </div>
+            <div class="home-sci">
+                <p href="Sujan Resume.docx" class="btn-box">Resume</p>
+            </div>
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="my.JPG" alt="Profile Picture">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <p>I'm Sujan Naidu Bhaskar Surisetty, a Master's student in Information Technology and Management at the University of Texas at Dallas. I hold a Bachelor's degree in Mechanical Engineering from Gitam University and have worked as a Data Engineer at Wipro, where I focused on data intake, ETL procedures, and real-time analytics. Python, SQL, HTML5, CSS3, and design software such as Figma and Adobe XD are among my specialties. I am certified in Python and Advanced SQL. I developed a user-friendly job matching platform that increased user engagement with responsive and visually appealing designs. In my real-time traffic pattern analysis project, I built a system that uses Hadoop and Spark ML-lib to improve network flow analysis and congestion prediction. In addition, I built a financial trend analysis bot using Python's NLTK package for sentiment analysis, which provided useful insights into market sentiment.</p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">Work <span>Experience</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code-alt' style='color:#00eeff'></i>
+                    <h2>Data Engineer</h2>
+                    <p>As a Data Engineer at Wipro Private Limited, I was responsible for building and monitoring data ingestion procedures, which efficiently handled a daily input of 1 million events from diverse sources such as weblogs, user activities, sales transactions, and product catalog data. I made substantial contributions to the architecture of a scalable and distributed storage system on Amazon S3, guaranteeing that it could accommodate the project's expanding data volume. By creating ETL-based data processing and transformation pipelines, I increased data quality and consistency, resulting in the cleansing and enrichment of 95% of incoming data. My engagement with agile teams on data validation and migration projects utilizing Hadoop and Snowflake in a Python environment resulted in a 15% increase in output delivery efficiency. In addition, I participated in proactive issue monitoring, helping to resolve 90% of issues before they impacted project timetables. This time at Wipro helped me strengthen my abilities in data engineering, agile approaches, and cross-functional collaboration.</p>
+                </div>
+                <div>
+                    <i class='bx bx-crop' style='color:#00eeff'></i>
+                    <h2>Web Development</h2>
+                    <p>I am a web developer with experience in both front-end and back-end technologies, such as HTML, CSS, JavaScript (React, Node.js), Ruby on Rails, and Python. I am proficient in SQL, NoSQL (MongoDB), and database design, as well as good UI/UX design skills with Adobe XD, Sketch, and Figma. My academic experience involves building responsive web applications, optimizing performance, and working with designers to improve user experiences. Notable projects include a Job Search Board platform, a personal portfolio website with dynamic animations, and a live chat application. I earned a Bachelor of Technology in Mechanical Engineering from Gitam University and am currently pursuing a Master of Science in Information Technology and Management at The University of Texas at Dallas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills container">
+        <h1 class="sub-title">My <span>Skills</span></h1>
+        <div class="skills">
+            <div class="skill">Hadoop</div>
+            <div class="skill">Python</div>
+            <div class="skill">Kafka</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Flume</div>
+            <div class="skill">Spark</div>
+            <div class="skill">Tableau</div>
+            <div class="skill">AWS</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">Figma</div>
+        </div>
+    </section>
+
+    <section id="project" class="portfolio-content">
+        <h2 class="sub-title"><span>Projects</span></h2>
+        <div class="row" data-title="Blockchain Data Ingestion and Analysis" data-description="Description of Blockchain project.">
+            <img src="blockchain.webp" alt="Blockchain Project">
+            <div class="layer">
+                <h5>Blockchain Data Ingestion and Analysis Using Hadoop Ecosystem</h5>
+                <p>To collect real-time blockchain data, we designed and constructed a robust data intake pipeline using Apache Flume. Hadoop HDFS was deployed for efficient blockchain data storage, allowing for easy handling of enormous data volumes. Complex data transformations were performed with Apache Pig to improve blockchain data analysis capabilities. Optimized data processing operations resulted in better real-time insights and decision-making. Ensured high throughput and minimal latency while processing over 1 million blockchain transactions per day.</p>
+            </div>
+        </div>
+        <div class="row" data-title="Job Boards and Recruitment Platforms" data-description="Description of Job Boards project.">
+            <img src="job.webp" alt="Job Boards Project">
+            <div class="layer">
+                <h5>Development of Job Boards and Recruitment Platforms</h5>
+                <p>Led the development of a Python and PostgreSQL-based recruitment platform, achieving a 40% increase in user engagement in the first quarter. Optimized PostgreSQL SQL queries, demonstrating database management expertise. Performance enhancements and indexing improved user experience and data retrieval speeds by 30%. Automated job-candidate matching using Python's machine learning tools (Scikit-learn), resulting in a 25% increase in successful matches.</p>
+            </div>
+        </div>
+        <div class="row" data-title="Financial Trend Analysis Bot" data-description="Description of Financial Trend project.">
+            <img src="fin.webp" alt="Financial Trend Project">
+            <div class="layer">
+                <h5>Financial Trend Analysis Bot</h5>
+                <p>Developed a Financial Market Trends Bot that monitors over 5,000 financial news and social media posts monthly to identify key market trends. Achieved a 75% accuracy rate in predicting stock price fluctuations.
+                    Utilized Python's NLTK package for sentiment analysis, identifying market sentiment with 80% accuracy, providing valuable insights into investor opinions on specific equities.Created a user-friendly dashboard for displaying forecasts and analyzing data, resulting in a 30% increase in test user participation, including academics and students, highlighting the bot's potential for real-world financial analysis.</p>
+            </div>
+        </div>
+        <div class="row" data-title="Real Time Traffic Pattern Analysis" data-description="Description of Real Time Traffic Pattern Analysis.">
+            <img src="traffic.webp" alt="Real Time Traffic Pattern Analysis">
+            <div class="layer">
+                <h5>Real Time Traffic Pattern Analysis</h5>
+                <p>Developed an innovative real time traffic analysis system that uses Hadoop to improve network flow analysis. The project used Spark ML-lib to improve congestion prediction and Apache Kafka for fast data streaming and processing. This system used predictive modeling and real-time analytics to improve traffic management by providing insights into traffic patterns, reducing congestion, and shortening travel times. By successfully assessing and forecasting traffic conditions, the system helped to more efficient transportation planning and administration, improving overall urban mobility and reducing travel delays.</p>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's Work Together</h4>
+            <p>Thank you for visiting my portfolio. I hope you enjoyed exploring my projects and skills. If you would like to discuss any work opportunities or collaborations, please feel free to reach out to me using the contact details below.</p>
+            <ul class="contact-list">
+                <li><i class='bx bxs-send'></i> sxs230099@utdallas.edu</li>
+                <li><i class='bx bx-phone-call'></i> 9452909006</li>
+            </ul>
+            <div class="contact-icons">
+                <i class='bx bxl-linkedin'></i>
+                <i class='bx bxl-gmail'></i>
+                <i class='bx bxl-github'></i>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    <!-- Your sections go here -->
+
+    <!-- Modal for project descriptions -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
